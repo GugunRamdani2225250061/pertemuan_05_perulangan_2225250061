@@ -19,21 +19,21 @@ Pada pertemuan ini saya mempelajari dan mempraktikkan:
 9. Penggunaan Git dan GitHub untuk mengumpulkan hasil pekerjaan.
 
 ## Struktur Folder
-Pertemuan_05_Perulangan_2225250061
-README.md
-.gitignore
-latihan/
+1. Pertemuan_05_Perulangan_2225250061
+2. README.md
+3. .gitignore
+4. latihan/
 - 01_tabel_perkalian.py
 - 02_jumlah_bilangan.py
 - 03_validasi_input.py
 - 04_hitung_genap.py
-kuis/
+5. kuis/
 - kuis1_formatif_pertemuan 05.docx
 - kuis2_deret_aritmetika.py
 
 ## Cara Menjalankan
 Pastikan Python sudah terpasang.
-Contoh menjalankan latihan:
+# Contoh menjalankan latihan:
 ```bash
 python latihan/01_tabel_perkalian.py
 ```
@@ -123,13 +123,11 @@ Program menolak `0` dan `-2`, kemudian menerima `5`.
 Status: Berhasil
 
 ## Refleksi
-
 Pada pertemuan ini saya memahami bahwa `for` dan `while` digunakan untuk kebutuhan yang berbeda. `for` lebih sesuai ketika jumlah iterasi sudah diketahui, sedangkan `while` digunakan ketika perulangan bergantung pada suatu kondisi.
 Kesalahan yang perlu diperhatikan pada `while` adalah lupa memperbarui variabel kontrol. Jika variabel kontrol tidak berubah menuju kondisi `False`, program dapat mengalami infinite loop.
 Saya juga memahami bahwa variabel akumulator seperti `total` harus diinisialisasi sebelum loop. Jika `total = 0` diletakkan di dalam loop, nilai yang telah dikumpulkan akan terus dihapus dan hasil akhirnya menjadi salah.
 Selain itu, saya belajar menggunakan `if` di dalam loop untuk melakukan seleksi terhadap setiap nilai yang sedang diproses.
 
 ## Kesimpulan
-
 Perulangan merupakan salah satu struktur dasar dalam pemrograman yang digunakan untuk menjalankan proses secara berulang. Pada pertemuan ini saya dapat menggunakan `for`, `while`, `if` dalam loop, akumulasi, pencacahan, validasi input, serta melakukan pengujian program.
 Saya juga mempraktikkan penggunaan Git untuk melakukan commit dan GitHub untuk mengunggah hasil pekerjaan.
